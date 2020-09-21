@@ -42,7 +42,7 @@
 
 ### :camera: Images
 
-* You will be prompted to for a image link and the rest is handled by the scripts.
+* You will be prompted for a image link and the rest is handled by the scripts.
 
 ### :floppy_disk: Save
 
@@ -88,7 +88,7 @@
 
 ### :star2: Simple setup
 
-* copy and paste the below code in your html file and place it in the directory of assets, styles and scripts.
+* copy and paste the below code in your html file and place it along with the assets, styles and scripts folders.
 
 ```
   <!DOCTYPE html>
