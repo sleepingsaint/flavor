@@ -30,43 +30,43 @@ document.addEventListener("DOMContentLoaded", () => {
                 <option value="Comic Sans MS">Comic Sans MS</option>
             </select>
             <button class="flavor-action-btn" onclick="document.execCommand('bold',false,null);">
-                <img src="../flavor-assets/bold.svg" alt="bold text">
+                <img src="flavor-assets/bold.svg" alt="bold text">
             </button>
             <button class="flavor-action-btn" onclick="document.execCommand('italic',false,null);">
-                <img src="../flavor-assets/italic.svg">
+                <img src="flavor-assets/italic.svg">
             </button>
             <button class="flavor-action-btn" onclick="document.execCommand('underline',false,null);">
-                <img src="../flavor-assets/underline.svg">
+                <img src="flavor-assets/underline.svg">
             </button>
             <button class="flavor-action-btn" onclick="document.execCommand('strikethrough',false,null);">
-                <img src="../flavor-assets/strikethrough.svg">
+                <img src="flavor-assets/strikethrough.svg">
             </button>
             <button class="flavor-action-btn" onclick="document.execCommand('insertOrderedList',false,null);">
-                <img src="../flavor-assets/numbered-list.svg">
+                <img src="flavor-assets/numbered-list.svg">
             </button>
 
             <button class="flavor-action-btn" onclick="document.execCommand('insertUnOrderedList',false,null);">
-                <img src="../flavor-assets/bullet-list.svg">
+                <img src="flavor-assets/bullet-list.svg">
             </button>
 
             <button class="flavor-action-btn" onclick="document.execCommand('justifyLeft',false,null);">
-                <img src="../flavor-assets/justify-left.svg">
+                <img src="flavor-assets/justify-left.svg">
             </button>
             <button class="flavor-action-btn" onclick="document.execCommand('justifyCenter',false,null);">
-                <img src="../flavor-assets/justify-center.svg">
+                <img src="flavor-assets/justify-center.svg">
             </button>
             <button class="flavor-action-btn" onclick="document.execCommand('justifyRight',false,null);">
-                <img src="../flavor-assets/justify-right.svg">
+                <img src="flavor-assets/justify-right.svg">
             </button>
 
             <button class="flavor-action-btn" onclick="document.execCommand('undo', false, null);">
-                <img src="../flavor-assets/undo.svg">
+                <img src="flavor-assets/undo.svg">
             </button>
             <button class="flavor-action-btn" onclick="document.execCommand('undo', false, null);">
-                <img src="../flavor-assets/redo.svg">
+                <img src="flavor-assets/redo.svg">
             </button>
             <button class="flavor-action-btn delete-flavor-btn">
-                <img src="../flavor-assets/delete.svg">
+                <img src="flavor-assets/delete.svg">
             </button>
 
             <input type="color"
@@ -99,26 +99,29 @@ document.addEventListener("DOMContentLoaded", () => {
             <input type="color"
                 onchange="document.execCommand('styleWithCSS', false, true); document.execCommand('foreColor', false, this.value);">
             <button class="flavor-action-btn" onclick="document.execCommand('undo', false, null);">
-                <img src="../flavor-assets/undo.svg">
+                <img src="flavor-assets/undo.svg">
             </button>
             <button class="flavor-action-btn" onclick="document.execCommand('undo', false, null);">
-                <img src="../flavor-assets/redo.svg">
+                <img src="flavor-assets/redo.svg">
             </button>
             <button class="flavor-action-btn delete-flavor-btn">
-                <img src="../flavor-assets/delete.svg">
+                <img src="flavor-assets/delete.svg">
             </button>
         </li>
 
 
         <li class="flavor-actions-bar">
             <button class="flavor-primary-btn" data-model="code">
-                <img src="../flavor-assets/code.svg">
+                <img src="flavor-assets/code.svg">
             </button>
             <button class="flavor-primary-btn" data-model="textarea">
-                <img src="../flavor-assets/paragraph.svg">
+                <img src="flavor-assets/paragraph.svg">
             </button>
             <button class="flavor-primary-btn" data-model="image">
-                <img src="../flavor-assets/image.svg">
+                <img src="flavor-assets/image.svg">
+            </button>
+            <button class="flavor-primary-btn" data-model="save">
+                <img src="flavor-assets/save.svg">
             </button>
         </li>`;
         const flavorActionsBar = document.querySelector(".flavor-actions-bar");
