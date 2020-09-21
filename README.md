@@ -50,6 +50,10 @@
 
 ## :tada: Getting started
 
+* Download the assets, scripts, styles folder
+
+* Create a html file **<file_name>.html** 
+
 * Add the corresponding css files 
   * While using flavor editor
   ```
@@ -81,6 +85,8 @@
 ```
 
 ### :star2: Simple setup
+
+* copy and paste the below code in your html file and place it in the directory of assets, styles and scripts.
 
 ```
   <!DOCTYPE html>
