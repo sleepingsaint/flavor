@@ -65,13 +65,13 @@ document.addEventListener("DOMContentLoaded", () => {
             <button class="flavor-action-btn" onclick="document.execCommand('undo', false, null);">
                 <img src="flavor-assets/redo.svg">
             </button>
+            
+            <input type="color"
+                onchange="document.execCommand('styleWithCSS', false, true); document.execCommand('foreColor', false, this.value);">
+                
             <button class="flavor-action-btn delete-flavor-btn">
                 <img src="flavor-assets/delete.svg">
             </button>
-
-            <input type="color"
-                onchange="document.execCommand('styleWithCSS', false, true); document.execCommand('foreColor', false, this.value);">
-
         </li>
 
         <li class="flavor-codearea-header">
