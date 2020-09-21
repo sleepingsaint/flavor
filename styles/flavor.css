@@ -1,0 +1,90 @@
+ul, li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+select {
+  margin: 0;
+  padding: 0;
+  margin: 0 5px;
+}
+
+.flavor {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.flavor-textarea-header, .flavor-codearea-header, .flavor-actions-bar {
+  width: auto;
+  height: auto;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: block;
+  padding: 8px;
+  border: 2px solid #eee;
+}
+
+.flavor-textarea-header, .flavor-codearea-header {
+  background-color: #eee;
+  display: none;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+
+.flavor-action-btn, .flavor-primary-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+.flavor-action-btn img, .flavor-primary-btn img {
+  width: 25px;
+  height: 25px;
+  display: block;
+}
+
+.flavor-action-btn {
+  background-color: #eee;
+}
+
+.flavor-primary-btn {
+  background-color: white;
+}
+
+pre > code {
+  display: block;
+  height: 100%;
+}
+
+.flavor-textarea, .flavor-codearea {
+  width: 80%;
+  margin: 10px auto;
+  border: 2px solid #eee;
+  padding: 20px;
+}
+
+.flavor-img {
+  margin: 5px;
+  min-width: 600px;
+  max-width: 100%;
+  height: auto;
+}
+/*# sourceMappingURL=flavor.css.map */
