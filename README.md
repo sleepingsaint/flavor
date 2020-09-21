@@ -3,6 +3,8 @@
  
  Simple yet powerful web text editor. Its features, customization and lightweightness is taken care efficiently.
 
+* Thanks to **[highlight.js](https://highlightjs.org/)** and **[flaticons](https://www.flaticon.com/)** for making my life easy :sunglasses: :sunglasses:.
+
 ## Contents
   * [Flavor Actions Bar](#wrench-flavor-actions-bar)
     * [Code](#joystick-code)
