@@ -17,6 +17,7 @@ select{
     width: auto;
     height: auto;
     display: inline-flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     display: block;
@@ -34,7 +35,7 @@ select{
     border: none;
     outline: none;
     cursor: pointer;
-    margin: 0 5px;
+    margin: 5px;
     img{
         width: 25px;
         height: 25px;
