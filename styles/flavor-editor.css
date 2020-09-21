@@ -29,6 +29,8 @@ select {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -52,7 +54,7 @@ select {
   border: none;
   outline: none;
   cursor: pointer;
-  margin: 0 5px;
+  margin: 5px;
 }
 
 .flavor-action-btn img, .flavor-primary-btn img {
